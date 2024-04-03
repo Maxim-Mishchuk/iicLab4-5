@@ -29,4 +29,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: ia14maksymmishchuk/iicLab4-5:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/iiclab4-5:latest
